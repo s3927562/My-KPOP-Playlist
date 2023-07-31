@@ -1,14 +1,19 @@
-//
-//  ArtistLocation.swift
-//  My KPOP Playlist
-//
-//  Created by Tung Tran Thanh on 28/07/2023.
-//
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2023B
+ Assessment: Assignment 1
+ Author: Tran Thanh Tung
+ ID: s3927562
+ Created date: 28/07/2023
+ Last modified: 31/07/2023
+ Acknowledgement: RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
+ */
 
 import SwiftUI
 import MapKit
 
-struct ArtistLocation: View {
+struct CompanyLocation: View {
     let company: Company
     
     @State private var region = MKCoordinateRegion()
@@ -18,13 +23,13 @@ struct ArtistLocation: View {
             .onAppear() {
                 region = MKCoordinateRegion(center: company.location, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             }
-        .frame(height: 250)
-
+            .frame(height: 250)
+        
     }
 }
 
 struct ArtistLocation_Previews: PreviewProvider {
     static var previews: some View {
-        ArtistLocation(company: artists[0].company)
+        CompanyLocation(company: artists[0].company)
     }
 }
