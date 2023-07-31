@@ -8,7 +8,13 @@
 import Foundation
 import MapKit
 
-struct Company {
+struct Company: Identifiable {
+    var id = UUID()
     var name: String
-    var location: CLLocationCoordinate2D
+    
+    var latitude: Double
+    var longitude: Double
+    var location: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
 }

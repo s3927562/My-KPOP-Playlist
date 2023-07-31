@@ -9,7 +9,7 @@ import Foundation
 import MapKit
 
 var artists: [Artist] = [
-    Artist(name: "Day6", company: Company(name: "JYP Entertainment", location: CLLocationCoordinate2D(latitude: 37.5241, longitude: 127.1291)), description: """
+    Artist(name: "Day6", company: Company(name: "JYP Entertainment", latitude: 37.5241, longitude: 127.1291), description: """
            bb
            
            
@@ -26,5 +26,5 @@ var artists: [Artist] = [
            
            rahh
            """, iconName: "day6-icon", coverName: "day6-cover", favStatus: true),
-    Artist(name: "Dreamcatcher", company: Company(name: "Dreamcatcher Company", location: CLLocationCoordinate2D(latitude: 37.514414, longitude: 127.053344)), description: "gg", iconName: "dreamcatcher-icon", coverName: "dreamcatcher-cover", favStatus: false)
+    Artist(name: "Dreamcatcher", company: Company(name: "Dreamcatcher Company", latitude: 37.514414, longitude: 127.053344), description: "gg", iconName: "dreamcatcher-icon", coverName: "dreamcatcher-cover", favStatus: false)
 ]

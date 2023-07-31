@@ -167,6 +167,7 @@
 		148EDB482A6FF2A40005ED41 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				149AF3AE2A77E3E400E26424 /* LaunchView */,
 				146F1FAA2A77C149000D7A85 /* ArtistView */,
 				146F1FAD2A77C173000D7A85 /* ArtistListView */,
 			);
@@ -181,6 +182,13 @@
 				148EDB502A6FFA000005ED41 /* ArtistData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		149AF3AE2A77E3E400E26424 /* LaunchView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LaunchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
