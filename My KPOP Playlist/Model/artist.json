@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Day6",
+        "company": {
+            "name": "JYP Entertainmemt",
+            "latitude": 37.5241,
+            "longitude": 127.1291
+        },
+        "description": "bb\r\n\r\n\r\n\r\nrhdf\r\nf\r\nd\r\nfhfha\r\nhr\r\nh\r\nh\r\ndh\r\n\r\n\r\n\r\nrahh",
+        "iconName": "day6-icon",
+        "favStatus": true
+    },
+    {
+        "name": "Dreamcatcher",
+        "company": {
+            "name": "Dreamcatcher Company",
+            "latitude": 37.514414,
+            "longitude": 127.053344
+        },
+        "description": "gg",
+        "iconName": "dreamcatcher-icon",
+        "favStatus": false
+    }
+]

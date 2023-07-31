@@ -17,6 +17,7 @@ struct ArtistInfo: View {
     
     var body: some View {
         VStack {
+            // Artist name
             HStack {
                 Text(artist.name)
                     .font(.largeTitle)
@@ -24,6 +25,8 @@ struct ArtistInfo: View {
                     .padding(.leading, 17)
                 Spacer()
             }
+            
+            // Company name and favorite status
             HStack {
                 Text(artist.company.name)
                     .font(.headline)
@@ -33,8 +36,11 @@ struct ArtistInfo: View {
                 artist.favIcon.symbolRenderingMode(.monochrome).foregroundColor(.yellow)
                     .padding(.trailing, 17)
             }
+            
             Divider()
                 .padding([.leading, .trailing], 17)
+            
+            // Artist description
             HStack {
                 Text(artist.description)
                     .padding([.trailing, .leading], 17)

@@ -7,7 +7,10 @@
  ID: s3927562
  Created date: 28/07/2023
  Last modified: 31/07/2023
- Acknowledgement: RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
+ Acknowledgement:
+ RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
+ MapKit: How to add a pin to a map (MapAnnotations) - CodeWithChris : CodeWithChris
+ https://codewithchris.com/swiftui/swiftui-map-annotation/
  */
 
 import SwiftUI
@@ -19,7 +22,7 @@ struct CompanyLocation: View {
     @State private var region = MKCoordinateRegion()
     
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region, annotationItems: [company], annotationContent: { location in MapMarker(coordinate: location.location) })
             .onAppear() {
                 region = MKCoordinateRegion(center: company.location, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             }

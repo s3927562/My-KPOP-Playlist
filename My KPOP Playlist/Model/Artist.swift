@@ -1,14 +1,19 @@
-//
-//  Artist.swift
-//  My KPOP Playlist
-//
-//  Created by Tung Tran Thanh on 25/07/2023.
-//
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2023B
+ Assessment: Assignment 1
+ Author: Tran Thanh Tung
+ ID: s3927562
+ Created date: 25/07/2023
+ Last modified: 31/07/2023
+ Acknowledgement: RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
+ */
 
 import Foundation
 import SwiftUI
 
-struct Artist {
+struct Artist: Codable {
     var name: String
     var company: Company
     var description: String
@@ -16,11 +21,6 @@ struct Artist {
     var iconName: String
     var icon: Image {
         Image(iconName)
-    }
-    
-    var coverName: String
-    var cover: Image {
-        Image(coverName)
     }
     
     var favStatus: Bool

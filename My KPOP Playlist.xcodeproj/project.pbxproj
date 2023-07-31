@@ -21,6 +21,7 @@
 		148EDB512A6FFA000005ED41 /* ArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EDB502A6FFA000005ED41 /* ArtistData.swift */; };
 		148EDB532A6FFA620005ED41 /* ArtistListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EDB522A6FFA620005ED41 /* ArtistListItem.swift */; };
 		148EDB552A6FFB4C0005ED41 /* ArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EDB542A6FFB4C0005ED41 /* ArtistListView.swift */; };
+		149AF3B42A77F5FB00E26424 /* artist.json in Resources */ = {isa = PBXBuildFile; fileRef = 149AF3B32A77F5FB00E26424 /* artist.json */; };
 		14CFC8EF2A715722006BC1B6 /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC8EE2A715722006BC1B6 /* ArtistInfo.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		148EDB502A6FFA000005ED41 /* ArtistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistData.swift; sourceTree = "<group>"; };
 		148EDB522A6FFA620005ED41 /* ArtistListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListItem.swift; sourceTree = "<group>"; };
 		148EDB542A6FFB4C0005ED41 /* ArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListView.swift; sourceTree = "<group>"; };
+		149AF3B32A77F5FB00E26424 /* artist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artist.json; sourceTree = "<group>"; };
 		14CFC8EE2A715722006BC1B6 /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 		148EDB482A6FF2A40005ED41 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				149AF3AE2A77E3E400E26424 /* LaunchView */,
 				146F1FAA2A77C149000D7A85 /* ArtistView */,
 				146F1FAD2A77C173000D7A85 /* ArtistListView */,
 			);
@@ -176,11 +179,19 @@
 		148EDB4D2A6FF98B0005ED41 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				149AF3B32A77F5FB00E26424 /* artist.json */,
 				148EDB4E2A6FF99A0005ED41 /* Artist.swift */,
 				140BC1EC2A73CB9800F9577E /* Company.swift */,
 				148EDB502A6FFA000005ED41 /* ArtistData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		149AF3AE2A77E3E400E26424 /* LaunchView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LaunchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				148EDB242A6FEE710005ED41 /* Preview Assets.xcassets in Resources */,
+				149AF3B42A77F5FB00E26424 /* artist.json in Resources */,
 				148EDB212A6FEE710005ED41 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
