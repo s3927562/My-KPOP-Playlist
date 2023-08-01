@@ -25,7 +25,7 @@ struct ArtistSNS: View {
     var body: some View {
         ForEach(artistSNS) { sns in
             Button {
-                if let uri = URL(string: sns.link.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? "") {
+                if let uri = URL(string: sns.link.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "") {
                     UIApplication.shared.open(uri)
                 }
             } label: {
