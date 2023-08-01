@@ -33,7 +33,7 @@ struct LaunchView: View {
                         .font(.title2)
                     Text("Insert Slogan")
                         .font(.title3)
-                    Text("ok how about now")
+                    Text("time")
                     Button {
                         launchView = false
                     } label: {
