@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		140BC1EB2A73C5E700F9577E /* CompanyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BC1EA2A73C5E700F9577E /* CompanyLocation.swift */; };
 		140BC1ED2A73CB9800F9577E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BC1EC2A73CB9800F9577E /* Company.swift */; };
+		144D23752A78FAAC006E1C09 /* ArtistSNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D23742A78FAAC006E1C09 /* ArtistSNS.swift */; };
+		144D23772A78FB28006E1C09 /* SNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D23762A78FB28006E1C09 /* SNS.swift */; };
 		148EDB1D2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EDB1C2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift */; };
 		148EDB212A6FEE710005ED41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148EDB202A6FEE710005ED41 /* Assets.xcassets */; };
 		148EDB242A6FEE710005ED41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148EDB232A6FEE710005ED41 /* Preview Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		140BC1EA2A73C5E700F9577E /* CompanyLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyLocation.swift; sourceTree = "<group>"; };
 		140BC1EC2A73CB9800F9577E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		144D23742A78FAAC006E1C09 /* ArtistSNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSNS.swift; sourceTree = "<group>"; };
+		144D23762A78FB28006E1C09 /* SNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNS.swift; sourceTree = "<group>"; };
 		148EDB192A6FEE6D0005ED41 /* My KPOP Playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My KPOP Playlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		148EDB1C2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_KPOP_PlaylistApp.swift; sourceTree = "<group>"; };
 		148EDB202A6FEE710005ED41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 				140BC1EA2A73C5E700F9577E /* CompanyLocation.swift */,
 				148EDB492A6FF45B0005ED41 /* ArtistIcon.swift */,
 				14CFC8EE2A715722006BC1B6 /* ArtistInfo.swift */,
+				144D23742A78FAAC006E1C09 /* ArtistSNS.swift */,
 			);
 			path = ArtistView;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			children = (
 				149AF3B32A77F5FB00E26424 /* artist.json */,
 				148EDB4E2A6FF99A0005ED41 /* Artist.swift */,
+				144D23762A78FB28006E1C09 /* SNS.swift */,
 				140BC1EC2A73CB9800F9577E /* Company.swift */,
 				148EDB502A6FFA000005ED41 /* ArtistData.swift */,
 			);
@@ -326,8 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				148EDB4C2A6FF6850005ED41 /* ArtistView.swift in Sources */,
+				144D23772A78FB28006E1C09 /* SNS.swift in Sources */,
 				148EDB532A6FFA620005ED41 /* ArtistListItem.swift in Sources */,
 				140BC1EB2A73C5E700F9577E /* CompanyLocation.swift in Sources */,
+				144D23752A78FAAC006E1C09 /* ArtistSNS.swift in Sources */,
 				148EDB512A6FFA000005ED41 /* ArtistData.swift in Sources */,
 				14CFC8EF2A715722006BC1B6 /* ArtistInfo.swift in Sources */,
 				148EDB4A2A6FF45B0005ED41 /* ArtistIcon.swift in Sources */,

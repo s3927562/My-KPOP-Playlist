@@ -8,7 +8,13 @@
         },
         "description": "bb\r\n\r\n\r\n\r\nrhdf\r\nf\r\nd\r\nfhfha\r\nhr\r\nh\r\nh\r\ndh\r\n\r\n\r\n\r\nrahh",
         "iconName": "day6-icon",
-        "favStatus": true
+        "favStatus": true,
+        "sns": [
+            {
+                "text": "Twitter: @day6official",
+                "link": "https://twitter.com/day6official"
+            }
+        ]
     },
     {
         "name": "Dreamcatcher",
@@ -19,6 +25,16 @@
         },
         "description": "gg",
         "iconName": "dreamcatcher-icon",
-        "favStatus": false
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @hf_dreamcatcher",
+                "link": "https://twitter.com/hf_dreamcatcher"
+            },
+            {
+                "text": "Twitter: @DC_FANSTAFF",
+                "link": "https://twitter.com/DC_FANSTAFF"
+            }
+        ]
     }
 ]

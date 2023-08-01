@@ -23,6 +23,7 @@ struct ArtistView: View {
                 ArtistIcon(artistIcon: artist.icon)
                     .padding(.top, -110) // using offset leaves behind a margin
                 ArtistInfo(artist: artist)
+                ArtistSNS(artistSNS: artist.sns)
             }
         }
         .navigationTitle(artist.name)

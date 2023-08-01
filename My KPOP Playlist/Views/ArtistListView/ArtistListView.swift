@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 25/07/2023
- Last modified: 31/07/2023
+ Last modified: 01/08/2023
  Acknowledgement:
  RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  ColorScheme | Apple Developer Documentation:
@@ -33,24 +33,24 @@ struct ArtistListView: View {
     
     var body: some View {
         NavigationView {
-            List(selection: $currentNavView) {
+            List { // List(selection: $currentNavView)
                 let favArtists = artists.filter { $0.favStatus || !favOnly }
                 Toggle("Show only favorite artists", isOn: $favOnly)
                 ForEach(searchText.isEmpty ? favArtists : favArtists.filter { $0.name.lowercased().contains(searchText.lowercased()) }, id: \.self.name) {artist in
-                    NavigationLink(tag: artist.name, selection: $currentNavView) {
+                    NavigationLink { // NavigationLink(tag: artist.name, selection: $currentNavView)
                         ArtistView(artist: artist)
                     } label: {
                         ArtistListItem(artist: artist)
                     }
                 }}
-            .onAppear{ // Auto select view on landscape iPad
-                let device = UIDevice.current
-                if device.model == "iPad" && device.orientation.isLandscape{
-                    self.currentNavView = artists[0].name
-                } else {
-                    self.currentNavView = nil
-                }
-            }
+//            .onAppear{ // Auto select view on landscape iPad
+//                let device = UIDevice.current
+//                if device.model == "iPad" && device.orientation.isLandscape{
+//                    self.currentNavView = artists[0].name
+//                } else {
+//                    self.currentNavView = nil
+//                }
+//            }
             .searchable(text: $searchText) // List search bar
             .navigationTitle("Artists")
             .toolbar {
