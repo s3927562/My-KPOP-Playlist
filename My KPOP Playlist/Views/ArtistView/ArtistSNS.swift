@@ -31,7 +31,7 @@ struct ArtistSNS: View {
             } label: {
                     Spacer()
                     Text(sns.text)
-                        .frame(height: 34)
+                        .frame(height: 32)
                     Spacer()
             }
             .buttonStyle(.bordered)

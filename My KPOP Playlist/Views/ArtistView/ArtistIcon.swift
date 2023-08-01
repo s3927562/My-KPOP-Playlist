@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 25/07/2023
- Last modified: 31/07/2023
+ Last modified: 01/08/2023
  Acknowledgement: RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  */
 
@@ -21,8 +21,8 @@ struct ArtistIcon: View {
             .aspectRatio(contentMode: .fit)
             .frame(width: 200)
             .clipShape(Circle())
-            .overlay(Circle().stroke(Color(.white), lineWidth: 4))
-            .shadow(radius: 7)
+            .overlay(Circle().stroke(Color(.white), lineWidth: 5))
+            .shadow(radius: 8)
     }
 }
 

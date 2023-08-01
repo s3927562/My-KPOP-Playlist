@@ -19,7 +19,7 @@ struct ArtistListItem: View {
         HStack {
             artist.icon
                 .resizable()
-                .clipShape(RoundedRectangle(cornerRadius: 4))
+                .clipShape(RoundedRectangle(cornerRadius: 5))
                 .frame(width: 50, height: 50)
             VStack {
                 HStack {

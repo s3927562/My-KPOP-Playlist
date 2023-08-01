@@ -48,8 +48,7 @@ struct ArtistListView: View {
             .searchable(text: $searchText) // List search bar
             .navigationTitle("Artists")
             .toolbar {
-                ToolbarItemGroup(placement: .navigationBarTrailing) { // deprecated, replace with topBarTrailing
-                    
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
                     // Button for switching color scheme between light and dark using state variable
                     Button(action: {
                         darkMode = !darkMode
