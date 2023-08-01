@@ -22,7 +22,6 @@ struct ArtistInfo: View {
                 Text(artist.name)
                     .font(.largeTitle)
                     .bold()
-                    .padding(.leading, 17)
                 Spacer()
             }
             
@@ -31,22 +30,19 @@ struct ArtistInfo: View {
                 Text(artist.company.name)
                     .font(.headline)
                     .foregroundColor(.gray)
-                    .padding(.leading, 17)
                 Spacer()
                 artist.favIcon.symbolRenderingMode(.monochrome).foregroundColor(.yellow)
-                    .padding(.trailing, 17)
             }
             
             Divider()
-                .padding([.leading, .trailing], 17)
             
             // Artist description
             HStack {
                 Text(artist.description)
-                    .padding([.trailing, .leading], 17)
                 Spacer()
             }
         }
+        .padding([.leading, .trailing])
     }
 }
 

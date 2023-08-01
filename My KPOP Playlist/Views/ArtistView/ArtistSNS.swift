@@ -35,7 +35,7 @@ struct ArtistSNS: View {
                     Spacer()
             }
             .buttonStyle(.bordered)
-            .padding([.leading, .trailing], 17)
+            .padding([.leading, .trailing])
         }
     }
 }

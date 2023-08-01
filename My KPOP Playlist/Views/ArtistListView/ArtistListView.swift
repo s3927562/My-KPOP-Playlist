@@ -9,10 +9,6 @@
  Last modified: 01/08/2023
  Acknowledgement:
  RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
- ColorScheme | Apple Developer Documentation:
- https://developer.apple.com/documentation/swiftui/colorscheme
- preferredColorScheme(_:) | Apple Developer Documentation:
- https://developer.apple.com/documentation/swiftui/view/preferredcolorscheme(_:)
  How To Add A Search Bar To A List In SwiftUI | Luke Roberts
  https://lukeroberts.co/blog/swiftui-search-bar/
  List | Apple Developer Documentation
@@ -24,8 +20,6 @@
 import SwiftUI
 
 struct ArtistListView: View {
-    @Environment(\.colorScheme) private var colorScheme // Get system color scheme
-    @AppStorage("firstLaunch") private var firstLaunch = true // Set first launch status
     @AppStorage("darkMode") private var darkMode = false // Store dark mode settings
     @State private var searchText = ""
     @State private var favOnly = false
@@ -63,18 +57,6 @@ struct ArtistListView: View {
                         darkMode ? Image(systemName: "moon.fill") : Image(systemName: "sun.max.fill")
                     })
                 }
-            }
-        }
-        .preferredColorScheme(darkMode ? .dark : .light) // Set color scheme based on state variable
-        .onAppear() {
-            // Set color scheme state variable on first launch based on system settings
-            if firstLaunch {
-                if colorScheme == .light {
-                    darkMode = false
-                } else {
-                    darkMode = true
-                }
-                firstLaunch = false
             }
         }
     }

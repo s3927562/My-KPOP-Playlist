@@ -16,7 +16,7 @@ import SwiftUI
 struct My_KPOP_PlaylistApp: App {
     var body: some Scene {
         WindowGroup {
-            ArtistListView()
+            LaunchView()
         }
     }
 }

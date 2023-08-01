@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		140BC1EB2A73C5E700F9577E /* CompanyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BC1EA2A73C5E700F9577E /* CompanyLocation.swift */; };
 		140BC1ED2A73CB9800F9577E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BC1EC2A73CB9800F9577E /* Company.swift */; };
+		143C77512A79251C004E8780 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C77502A79251C004E8780 /* LaunchView.swift */; };
 		144D23752A78FAAC006E1C09 /* ArtistSNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D23742A78FAAC006E1C09 /* ArtistSNS.swift */; };
 		144D23772A78FB28006E1C09 /* SNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D23762A78FB28006E1C09 /* SNS.swift */; };
 		148EDB1D2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EDB1C2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		140BC1EA2A73C5E700F9577E /* CompanyLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyLocation.swift; sourceTree = "<group>"; };
 		140BC1EC2A73CB9800F9577E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		143C77502A79251C004E8780 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		144D23742A78FAAC006E1C09 /* ArtistSNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSNS.swift; sourceTree = "<group>"; };
 		144D23762A78FB28006E1C09 /* SNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNS.swift; sourceTree = "<group>"; };
 		148EDB192A6FEE6D0005ED41 /* My KPOP Playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My KPOP Playlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,7 +176,7 @@
 		148EDB482A6FF2A40005ED41 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				149AF3AE2A77E3E400E26424 /* LaunchView */,
+				143C77502A79251C004E8780 /* LaunchView.swift */,
 				146F1FAA2A77C149000D7A85 /* ArtistView */,
 				146F1FAD2A77C173000D7A85 /* ArtistListView */,
 			);
@@ -191,13 +193,6 @@
 				148EDB502A6FFA000005ED41 /* ArtistData.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		149AF3AE2A77E3E400E26424 /* LaunchView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LaunchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +329,7 @@
 				148EDB4C2A6FF6850005ED41 /* ArtistView.swift in Sources */,
 				144D23772A78FB28006E1C09 /* SNS.swift in Sources */,
 				148EDB532A6FFA620005ED41 /* ArtistListItem.swift in Sources */,
+				143C77512A79251C004E8780 /* LaunchView.swift in Sources */,
 				140BC1EB2A73C5E700F9577E /* CompanyLocation.swift in Sources */,
 				144D23752A78FAAC006E1C09 /* ArtistSNS.swift in Sources */,
 				148EDB512A6FFA000005ED41 /* ArtistData.swift in Sources */,
