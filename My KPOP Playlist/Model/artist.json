@@ -25,7 +25,7 @@
         },
         "description": "gg",
         "iconName": "dreamcatcher-icon",
-        "favStatus": false,
+        "favStatus": true,
         "sns": [
             {
                 "text": "Twitter: @hf_dreamcatcher",
@@ -34,6 +34,240 @@
             {
                 "text": "Twitter: @DC_FANSTAFF",
                 "link": "https://twitter.com/DC_FANSTAFF"
+            }
+        ]
+    },
+    {
+        "name": "Kang Daniel",
+        "company": {
+            "name": "Konnect Entertainment",
+            "latitude": 37.524264,
+            "longitude": 127.032247
+        },
+        "description": "msl",
+        "iconName": "kang-daniel-icon",
+        "favStatus": true,
+        "sns": [
+            {
+                "text": "Twitter: @konnect_danielk",
+                "link": "https://twitter.com/konnect_danielk"
+            },
+            {
+                "text": "Twitter: @Kangdaniel_jp",
+                "link": "https://twitter.com/Kangdaniel_jp"
+            },
+            {
+                "text": "Twitter: @danielk_staff",
+                "link": "https://twitter.com/danielk_staff"
+            }
+        ]
+    },
+    {
+        "name": "Onewe",
+        "company": {
+            "name": "RBW Entertainment",
+            "latitude": 37.568899,
+            "longitude": 127.070346
+        },
+        "description": "msl",
+        "iconName": "onewe-icon",
+        "favStatus": true,
+        "sns": [
+            {
+                "text": "Twitter: @official_ONEWE",
+                "link": "https://twitter.com/official_ONEWE"
+            },
+            {
+                "text": "Twitter: @ONEWE_JPN",
+                "link": "https://twitter.com/ONEWE_JPN"
+            }
+        ]
+    },
+    {
+        "name": "STAYC",
+        "company": {
+            "name": "High Up Entertainment",
+            "latitude": 37.558581,
+            "longitude": 126.918511
+        },
+        "description": "msl",
+        "iconName": "stayc-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @STAYC_official",
+                "link": "https://twitter.com/STAYC_official"
+            },
+            {
+                "text": "Twitter: @STAYC_JP",
+                "link": "https://twitter.com/STAYC_JPN"
+            },
+            {
+                "text": "Twitter: @STAYC_talk",
+                "link": "https://twitter.com/STAYC_talk"
+            }
+        ]
+    },
+    {
+        "name": "Oh My Girl",
+        "company": {
+            "name": "WM Entertainment",
+            "latitude": 37.556597,
+            "longitude": 126.908856
+        },
+        "description": "msl",
+        "iconName": "oh-my-girl-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @8_OHMYGIRL",
+                "link": "https://twitter.com/8_OHMYGIRL"
+            },
+            {
+                "text": "Twitter: @WM_OHMYGIRL",
+                "link": "https://twitter.com/WM_OHMYGIRL"
+            },
+            {
+                "text": "Twitter: @OHMYGIRLJAPAN",
+                "link": "https://twitter.com/OHMYGIRLJAPAN"
+            }
+        ]
+    },
+    {
+        "name": "The Boyz",
+        "company": {
+            "name": "IST Entertainment",
+            "latitude": 37.527656,
+            "longitude": 127.034458
+        },
+        "description": "msl",
+        "iconName": "the-boyz-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @IST_THEBOYZ",
+                "link": "https://twitter.com/IST_THEBOYZ"
+            },
+            {
+                "text": "Twitter: @THEBOYZJAPAN",
+                "link": "https://twitter.com/THEBOYZJAPAN"
+            },
+            {
+                "text": "Twitter: @WE_THE_BOYZ",
+                "link": "https://twitter.com/WE_THE_BOYZ"
+            }
+        ]
+    },
+    {
+        "name": "ATEEZ",
+        "company": {
+            "name": "KQ Entertainment",
+            "latitude": 37.558284,
+            "longitude": 126.921143
+        },
+        "description": "msl",
+        "iconName": "ateez-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @ATEEZofficial",
+                "link": "https://twitter.com/ATEEZofficial"
+            },
+            {
+                "text": "Twitter: @ATEEZofficialjp",
+                "link": "https://twitter.com/ATEEZofficialjp"
+            },
+            {
+                "text": "Twitter: @ATEEZstaff",
+                "link": "https://twitter.com/ATEEZstaff"
+            }
+        ]
+    },
+    {
+        "name": "BDC",
+        "company": {
+            "name": "BrandNew Music Entertainment",
+            "latitude": 37.485804,
+            "longitude": 126.995342
+        },
+        "description": "msl",
+        "iconName": "bdc-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @BDC_BNM",
+                "link": "https://twitter.com/BDC_BNM"
+            },
+            {
+                "text": "Twitter: @BDC_JAPAN",
+                "link": "https://twitter.com/BDC_JAPAN"
+            }
+        ]
+    },
+    {
+        "name": "F.T. Island",
+        "company": {
+            "name": "FNC Entertainment",
+            "latitude": 37.527522,
+            "longitude": 127.049986
+        },
+        "description": "msl",
+        "iconName": "ftisland-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @FT_FANCLUB",
+                "link": "https://twitter.com/FT_FANCLUB"
+            },
+            {
+                "text": "Twitter: @ftisland_japan",
+                "link": "https://twitter.com/ftisland_japan"
+            }
+        ]
+    },
+    {
+        "name": "CNBLUE",
+        "company": {
+            "name": "FNC Entertainment",
+            "latitude": 37.527522,
+            "longitude": 127.049986
+        },
+        "description": "msl",
+        "iconName": "cnblue-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @official_CNBLUE",
+                "link": "https://twitter.com/official_CNBLUE"
+            },
+            {
+                "text": "Twitter: @CN_FANCLUB",
+                "link": "https://twitter.com/CN_FANCLUB"
+            },
+            {
+                "text": "Twitter: @cnblue_japan",
+                "link": "https://twitter.com/cnblue_japan"
+            }
+        ]
+    },
+    {
+        "name": "N.Flying",
+        "company": {
+            "name": "FNC Entertainment",
+            "latitude": 37.527522,
+            "longitude": 127.049986
+        },
+        "description": "msl",
+        "iconName": "nflying-icon",
+        "favStatus": false,
+        "sns": [
+            {
+                "text": "Twitter: @NFlyingofficial",
+                "link": "https://twitter.com/NFlyingofficial"
+            },
+            {
+                "text": "Twitter: @NF_official_jp",
+                "link": "https://twitter.com/NF_official_jp"
             }
         ]
     }

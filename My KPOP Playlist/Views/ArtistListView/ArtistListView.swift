@@ -15,6 +15,8 @@
  https://developer.apple.com/documentation/swiftui/list
  Default a View in NavigationView with SwiftUI | DEV Community
  https://dev.to/maeganwilson_/default-a-view-in-navigationview-with-swiftui-183p
+ sorting - How to sort an array of custom objects by property value in Swift - Stack Overflow:
+ https://stackoverflow.com/questions/24130026/how-to-sort-an-array-of-custom-objects-by-property-value-in-swift
  */
 
 import SwiftUI
@@ -28,7 +30,7 @@ struct ArtistListView: View {
     var body: some View {
         NavigationView {
             List { // List(selection: $currentNavView)
-                let favArtists = artists.filter { $0.favStatus || !favOnly }
+                let favArtists = artists.filter { $0.favStatus || !favOnly }.sorted { $0.name < $1.name }
                 Toggle("Show only favorite artists", isOn: $favOnly)
                 ForEach(searchText.isEmpty ? favArtists : favArtists.filter { $0.name.lowercased().contains(searchText.lowercased()) }, id: \.self.name) {artist in
                     NavigationLink { // NavigationLink(tag: artist.name, selection: $currentNavView)
