@@ -18,6 +18,8 @@
  https://developer.apple.com/documentation/swiftui/view/alert(_:ispresented:presenting:actions:message:)-8584l
  animation(_:value:) | Apple Developer Documentation:
  https://developer.apple.com/documentation/swiftui/view/animation(_:value:)
+ accentColor | Apple Developer Documentation:
+ https://developer.apple.com/documentation/swiftui/color/accentcolor
  */
 import SwiftUI
 
@@ -25,8 +27,8 @@ struct LaunchView: View {
     @Environment(\.colorScheme) private var colorScheme // Get system color scheme
     @AppStorage("firstLaunch") private var firstLaunch = true // Set first launch status
     @AppStorage("darkMode") private var darkMode = false // Store dark mode settings
-    @State private var launchView = true
-    @State private var infoAlert = false
+    @State private var launchView = true // State variable for switching view
+    @State private var infoAlert = false // State variable for information pop-up
     
     var body: some View {
         ZStack{
