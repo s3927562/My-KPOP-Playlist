@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 01/08/2023
- Last modified: 02/08/2023
+ Last modified: 03/08/2023
  Acknowledgement: RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  ColorScheme | Apple Developer Documentation:
  https://developer.apple.com/documentation/swiftui/colorscheme
@@ -51,7 +51,8 @@ struct LaunchView: View {
                             .font(.largeTitle)
                         Spacer()
                         
-                        Text("I'm still thinking of a slogan")
+                        Text("Go with the flow, listen on the go!")
+                            .font(.title3)
                         Spacer()
                     }
                     .bold()

@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 01/08/2023
- Last modified: 01/08/2023
+ Last modified: 03/08/2023
  Acknowledgement:
  RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  Open a URL when tapping a SwiftUI Button - SwiftSpeedy:
@@ -29,10 +29,10 @@ struct ArtistSNS: View {
                     UIApplication.shared.open(uri)
                 }
             } label: {
-                    Spacer()
-                    Text(sns.text)
-                        .frame(height: 32)
-                    Spacer()
+                Spacer()
+                Text(sns.text)
+                    .frame(height: 32)
+                Spacer()
             }
             .buttonStyle(.bordered)
             .padding([.leading, .trailing])
