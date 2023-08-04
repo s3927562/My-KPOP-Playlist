@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 26/07/2023
- Last modified: 03/08/2023
+ Last modified: 04/08/2023
  Acknowledgement: RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  */
 
@@ -45,7 +45,8 @@ struct ArtistInfo: View {
             // Reference
             HStack {
                 Spacer()
-                Text("- Source")
+                Text("-")
+                Link(artist.reference.text, destination: URL(string: artist.reference.link.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "") ?? URL(string: "")!)
             }
         }
         .padding([.leading, .trailing])

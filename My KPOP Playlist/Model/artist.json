@@ -14,7 +14,11 @@
                 "text": "Twitter: @day6official",
                 "link": "https://twitter.com/day6official"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Day6"
+        }
     },
     {
         "name": "Dreamcatcher",
@@ -35,7 +39,11 @@
                 "text": "Twitter: @DC_FANSTAFF",
                 "link": "https://twitter.com/DC_FANSTAFF"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Dreamcatcher_(group)"
+        }
     },
     {
         "name": "Kang Daniel",
@@ -60,7 +68,11 @@
                 "text": "Twitter: @danielk_staff",
                 "link": "https://twitter.com/danielk_staff"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Kang_Daniel"
+        }
     },
     {
         "name": "Onewe",
@@ -81,7 +93,11 @@
                 "text": "Twitter: @ONEWE_JPN",
                 "link": "https://twitter.com/ONEWE_JPN"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Onewe"
+        }
     },
     {
         "name": "STAYC",
@@ -106,7 +122,11 @@
                 "text": "Twitter: @STAYC_talk",
                 "link": "https://twitter.com/STAYC_talk"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/STAYC"
+        }
     },
     {
         "name": "Oh My Girl",
@@ -131,7 +151,11 @@
                 "text": "Twitter: @WM_OHMYGIRL",
                 "link": "https://twitter.com/WM_OHMYGIRL"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Oh_My_Girl"
+        }
     },
     {
         "name": "The Boyz",
@@ -156,7 +180,11 @@
                 "text": "Twitter: @WE_THE_BOYZ",
                 "link": "https://twitter.com/WE_THE_BOYZ"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/The_Boyz_(South_Korean_band)"
+        }
     },
     {
         "name": "ATEEZ",
@@ -181,7 +209,11 @@
                 "text": "Twitter: @ATEEZstaff",
                 "link": "https://twitter.com/ATEEZstaff"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Ateez"
+        }
     },
     {
         "name": "BDC",
@@ -202,7 +234,11 @@
                 "text": "Twitter: @BDC_JAPAN",
                 "link": "https://twitter.com/BDC_JAPAN"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/BDC_(group)"
+        }
     },
     {
         "name": "F.T. Island",
@@ -223,7 +259,11 @@
                 "text": "Twitter: @ftisland_japan",
                 "link": "https://twitter.com/ftisland_japan"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/F.T._Island"
+        }
     },
     {
         "name": "CNBLUE",
@@ -248,7 +288,11 @@
                 "text": "Twitter: @cnblue_japan",
                 "link": "https://twitter.com/cnblue_japan"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/CNBLUE"
+        }
     },
     {
         "name": "N.Flying",
@@ -269,6 +313,10 @@
                 "text": "Twitter: @NF_official_jp",
                 "link": "https://twitter.com/NF_official_jp"
             }
-        ]
+        ],
+        "reference": {
+            "text": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/N.Flying"
+        }
     }
 ]

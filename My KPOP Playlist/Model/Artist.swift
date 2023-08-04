@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 25/07/2023
- Last modified: 01/08/2023
+ Last modified: 04/08/2023
  Acknowledgement: RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  */
 
@@ -17,6 +17,7 @@ struct Artist: Codable {
     var name: String
     var company: Company
     var description: String
+    var reference: Reference
     
     var iconName: String
     var icon: Image {
