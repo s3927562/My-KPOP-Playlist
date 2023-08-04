@@ -11,6 +11,7 @@
 		140BC1ED2A73CB9800F9577E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140BC1EC2A73CB9800F9577E /* Company.swift */; };
 		143C77512A79251C004E8780 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C77502A79251C004E8780 /* LaunchView.swift */; };
 		144D23752A78FAAC006E1C09 /* ArtistSNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D23742A78FAAC006E1C09 /* ArtistSNS.swift */; };
+		147E0E462A7D435300F5EB33 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 147E0E442A7D434B00F5EB33 /* README.md */; };
 		148EDB1D2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EDB1C2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift */; };
 		148EDB212A6FEE710005ED41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148EDB202A6FEE710005ED41 /* Assets.xcassets */; };
 		148EDB242A6FEE710005ED41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148EDB232A6FEE710005ED41 /* Preview Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		140BC1EC2A73CB9800F9577E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		143C77502A79251C004E8780 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		144D23742A78FAAC006E1C09 /* ArtistSNS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSNS.swift; sourceTree = "<group>"; };
+		147E0E442A7D434B00F5EB33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		148EDB192A6FEE6D0005ED41 /* My KPOP Playlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My KPOP Playlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		148EDB1C2A6FEE6D0005ED41 /* My_KPOP_PlaylistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_KPOP_PlaylistApp.swift; sourceTree = "<group>"; };
 		148EDB202A6FEE710005ED41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		148EDB102A6FEE6D0005ED41 = {
 			isa = PBXGroup;
 			children = (
+				147E0E442A7D434B00F5EB33 /* README.md */,
 				148EDB1B2A6FEE6D0005ED41 /* My KPOP Playlist */,
 				148EDB2C2A6FEE710005ED41 /* My KPOP PlaylistTests */,
 				148EDB362A6FEE710005ED41 /* My KPOP PlaylistUITests */,
@@ -298,6 +301,7 @@
 			files = (
 				148EDB242A6FEE710005ED41 /* Preview Assets.xcassets in Resources */,
 				149AF3B42A77F5FB00E26424 /* artist.json in Resources */,
+				147E0E462A7D435300F5EB33 /* README.md in Resources */,
 				148EDB212A6FEE710005ED41 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
