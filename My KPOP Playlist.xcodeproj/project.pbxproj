@@ -26,6 +26,7 @@
 		148EDB552A6FFB4C0005ED41 /* ArtistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EDB542A6FFB4C0005ED41 /* ArtistListView.swift */; };
 		149AF3B42A77F5FB00E26424 /* artist.json in Resources */ = {isa = PBXBuildFile; fileRef = 149AF3B32A77F5FB00E26424 /* artist.json */; };
 		14CFC8EF2A715722006BC1B6 /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC8EE2A715722006BC1B6 /* ArtistInfo.swift */; };
+		14FC1B322A7CFCE900A9D1ED /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC1B312A7CFCE900A9D1ED /* Reference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		148EDB542A6FFB4C0005ED41 /* ArtistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListView.swift; sourceTree = "<group>"; };
 		149AF3B32A77F5FB00E26424 /* artist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artist.json; sourceTree = "<group>"; };
 		14CFC8EE2A715722006BC1B6 /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
+		14FC1B312A7CFCE900A9D1ED /* Reference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				144D23762A78FB28006E1C09 /* SNS.swift */,
 				140BC1EC2A73CB9800F9577E /* Company.swift */,
 				148EDB502A6FFA000005ED41 /* ArtistData.swift */,
+				14FC1B312A7CFCE900A9D1ED /* Reference.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				148EDB512A6FFA000005ED41 /* ArtistData.swift in Sources */,
 				14CFC8EF2A715722006BC1B6 /* ArtistInfo.swift in Sources */,
 				148EDB4A2A6FF45B0005ED41 /* ArtistIcon.swift in Sources */,
+				14FC1B322A7CFCE900A9D1ED /* Reference.swift in Sources */,
 				140BC1ED2A73CB9800F9577E /* Company.swift in Sources */,
 				148EDB552A6FFB4C0005ED41 /* ArtistListView.swift in Sources */,
 				148EDB4F2A6FF99A0005ED41 /* Artist.swift in Sources */,

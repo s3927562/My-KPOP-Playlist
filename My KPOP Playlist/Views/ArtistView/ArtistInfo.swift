@@ -41,6 +41,12 @@ struct ArtistInfo: View {
                 Text(artist.description)
                 Spacer()
             }
+            
+            // Reference
+            HStack {
+                Spacer()
+                Text("- Source")
+            }
         }
         .padding([.leading, .trailing])
     }
