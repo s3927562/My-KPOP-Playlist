@@ -22,7 +22,7 @@ struct CompanyLocation: View {
     @State private var region = MKCoordinateRegion()
     
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: [company], annotationContent: { location in MapMarker(coordinate: location.location) })
+        Map(coordinateRegion: $region, annotationItems: [company], annotationContent: { company in MapMarker(coordinate: company.location) })
             .onAppear() {
                 region = MKCoordinateRegion(center: company.location, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             }
