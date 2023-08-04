@@ -87,7 +87,7 @@ struct LaunchView: View {
                 .padding()
                 .alert("Information", isPresented: $infoAlert) {} message: {
                     VStack {
-                        Text("Name: Tran Thanh Tung\nStudent ID: s3927562\nApplication Name: My KPOP Playlist")
+                        Text("Name: Tran Thanh Tung\nStudent ID: s3927562\nProgram: BH120 - Bachelor of Engineering (Software Engineering) (Honours)")
                     }
                 }
             } else {
