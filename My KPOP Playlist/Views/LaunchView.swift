@@ -98,11 +98,7 @@ struct LaunchView: View {
         .onAppear() {
             // Set color scheme state variable on first launch based on system settings
             if firstLaunch {
-                if colorScheme == .light {
-                    darkMode = false
-                } else {
-                    darkMode = true
-                }
+                darkMode = colorScheme == .dark ? true : false
                 firstLaunch = false
             }
         }
