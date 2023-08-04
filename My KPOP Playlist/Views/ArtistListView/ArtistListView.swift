@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 25/07/2023
- Last modified: 03/08/2023
+ Last modified: 04/08/2023
  Acknowledgement:
  RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  How To Add A Search Bar To A List In SwiftUI | Luke Roberts
@@ -25,13 +25,16 @@ struct ArtistListView: View {
     @AppStorage("darkMode") private var darkMode = false // Store dark mode settings
     @State private var searchText = ""
     @State private var favOnly = true // Set to true then set to false when view appear to fix display issue on iPad
-    @State private var currentNavView: String?
     
     var body: some View {
         NavigationView {
             List {
+                Toggle("Show only favorite artists", isOn: $favOnly) // 'Favortie artist' toggle
+                
+                // Filter the list if the 'Favorite artist' toggle is on then sort by alphabetical order
                 let favArtists = artists.filter { $0.favStatus || !favOnly }.sorted { $0.name < $1.name }
-                Toggle("Show only favorite artists", isOn: $favOnly)
+                
+                // Further filter the list if using the search function then create a NavigationLink for each entry
                 ForEach(searchText.isEmpty ? favArtists : favArtists.filter { $0.name.lowercased().contains(searchText.lowercased()) }, id: \.self.name) {artist in
                     NavigationLink {
                         ArtistView(artist: artist)

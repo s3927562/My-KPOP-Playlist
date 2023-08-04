@@ -15,7 +15,7 @@ import MapKit
 
 struct Company: Identifiable, Codable {
     var id: UUID {
-        UUID()
+        UUID() // Used for MapMarker
     }
     var name: String
     

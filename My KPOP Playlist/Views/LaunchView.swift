@@ -34,6 +34,7 @@ struct LaunchView: View {
         ZStack{
             if launchView {
                 VStack {
+                    // Using Groups as a View is limited to 10 items
                     // Images
                     Group {
                         Image(darkMode ? "rmit-logo-white" : "rmit-logo-black")
@@ -60,6 +61,7 @@ struct LaunchView: View {
                     
                     // Buttons
                     Group {
+                        // Next view button
                         Button {
                             launchView = false
                         } label: {
@@ -72,6 +74,7 @@ struct LaunchView: View {
                         .controlSize(.large)
                         Spacer()
                         
+                        // Info button
                         HStack {
                             Spacer()
                             Button {
@@ -85,7 +88,9 @@ struct LaunchView: View {
                     }
                 }
                 .padding()
-                .alert("Information", isPresented: $infoAlert) {} message: {
+                .alert("Information", isPresented: $infoAlert) {
+                    // Default is already "OK" Button
+                } message: {
                     VStack {
                         Text("Name: Tran Thanh Tung\nStudent ID: s3927562\nProgram: BH120 - Bachelor of Engineering (Software Engineering) (Honours)")
                     }
@@ -94,7 +99,7 @@ struct LaunchView: View {
                 ArtistListView()
             }
         }
-        .animation(.default, value: launchView)
+        .animation(.default, value: launchView) // Prevent abrupt transition to ArtistListView
         .onAppear() {
             // Set color scheme state variable on first launch based on system settings
             if firstLaunch {

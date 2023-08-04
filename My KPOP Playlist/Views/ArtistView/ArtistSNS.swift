@@ -6,7 +6,7 @@
  Author: Tran Thanh Tung
  ID: s3927562
  Created date: 01/08/2023
- Last modified: 03/08/2023
+ Last modified: 04/08/2023
  Acknowledgement:
  RMIT University, COSC2659 Course, Week 1 - 5 Lecture Slides & Videos
  Open a URL when tapping a SwiftUI Button - SwiftSpeedy:
@@ -23,7 +23,8 @@ struct ArtistSNS: View {
     var artistSNS: [SNS]
     
     var body: some View {
-        ForEach(artistSNS) { sns in
+        // For each SNS account, create a button that open the corresponding link to it
+        ForEach(artistSNS, id: \.self.text) { sns in
             Button {
                 if let uri = URL(string: sns.link.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "") {
                     UIApplication.shared.open(uri)

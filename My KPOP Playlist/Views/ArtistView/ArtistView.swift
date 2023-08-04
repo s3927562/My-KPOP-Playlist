@@ -21,7 +21,7 @@ struct ArtistView: View {
             VStack {
                 CompanyLocation(company: artist.company)
                 ArtistIcon(artistIcon: artist.icon)
-                    .padding(.top, -110) // using offset leaves behind a margin
+                    .padding(.top, -110) // Using offset leaves behind empty space
                 ArtistInfo(artist: artist)
                 Divider()
                     .padding([.trailing, .leading])

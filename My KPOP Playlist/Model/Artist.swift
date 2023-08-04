@@ -31,3 +31,11 @@ struct Artist: Codable {
     
     var sns: [SNS]
 }
+
+struct text_link: Codable {
+    var text: String
+    var link: String
+}
+
+typealias SNS = text_link
+typealias Reference = text_link
